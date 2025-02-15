@@ -129,4 +129,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact
 For any queries, please reach out to me or open an issue in the repository.
 
-## Ad astra per aspera >>>
+### Ad astra per aspera 🌌!

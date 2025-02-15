@@ -59,7 +59,7 @@ This project implements an advanced digital watermarking system that seamlessly 
 ### Quick Start
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/digital-watermarking.git
+git clone https://github.com/harshitsinghcode/digital-watermarking.git
 
 # Install dependencies
 pip install -r requirements.txt

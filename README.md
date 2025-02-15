@@ -1,4 +1,4 @@
-# Digital Watermarking Project 🔒
+# Neural Stamp 🖋️
 
 ## Introduction
 This project implements an advanced digital watermarking system that seamlessly embeds and extracts watermarks from images while maintaining visual quality. By combining Discrete Wavelet Transform (DWT) and Discrete Cosine Transform (DCT), along with deep learning-based detection, we provide a robust solution for digital content protection and authentication.

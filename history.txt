@@ -1,0 +1,58 @@
+import time
+
+# Simulating the log outputs for each epoch
+log_output = [
+    "Epoch [1/10], Step [740/857], Loss: 0.6878",
+    "Epoch [1/10], Step [750/857], Loss: 0.6991",
+    "Epoch [1/10], Step [760/857], Loss: 0.6928",
+    "Epoch [1/10], Step [770/857], Loss: 0.6922",
+    "Epoch [1/10], Step [780/857], Loss: 0.6934",
+    "Epoch [1/10], Step [790/857], Loss: 0.6971",
+    "Epoch [1/10], Step [800/857], Loss: 0.6982",
+    "Epoch [1/10], Step [810/857], Loss: 0.6966",
+    "Epoch [1/10], Step [820/857], Loss: 0.6880",
+    "Epoch [1/10], Step [830/857], Loss: 0.6925",
+    "Epoch [1/10], Step [840/857], Loss: 0.6932",
+    "Epoch [1/10], Step [850/857], Loss: 0.6945",
+    "Epoch [1/10], Average Loss: 0.7758, Accuracy: 49.97%",
+    "Epoch [2/10], Step [0/857], Loss: 0.6940",
+    "Epoch [2/10], Step [10/857], Loss: 0.6935",
+    "Epoch [2/10], Step [20/857], Loss: 0.6910",
+    "Epoch [2/10], Step [800/857], Loss: 0.6973",
+    "Epoch [2/10], Step [810/857], Loss: 0.6979",
+    "Epoch [2/10], Step [820/857], Loss: 0.6948",
+    "Epoch [2/10], Step [830/857], Loss: 0.6902",
+    "Epoch [2/10], Step [840/857], Loss: 0.6934",
+    "Epoch [2/10], Step [850/857], Loss: 0.6932",
+    "Epoch [2/10], Average Loss: 0.6929, Accuracy: 51.19%",
+    "Epoch [3/10], Step [0/857], Loss: 0.6923",
+    "Epoch [3/10], Step [10/857], Loss: 0.6922",
+    "Epoch [3/10], Step [20/857], Loss: 0.6903",
+    "Epoch [9/10], Step [750/857], Loss: 0.7378",
+    "Epoch [9/10], Step [760/857], Loss: 0.5979",
+    "Epoch [9/10], Step [770/857], Loss: 0.6509",
+    "Epoch [9/10], Step [780/857], Loss: 0.5330",
+    "Epoch [9/10], Step [790/857], Loss: 0.5014",
+    "Epoch [9/10], Step [800/857], Loss: 0.4671",
+    "Epoch [9/10], Step [810/857], Loss: 0.5483",
+    "Epoch [9/10], Step [820/857], Loss: 0.5343",
+    "Epoch [9/10], Step [830/857], Loss: 0.4868",
+    "Epoch [9/10], Step [840/857], Loss: 0.4722",
+    "Epoch [9/10], Step [850/857], Loss: 0.5677",
+    "Epoch [9/10], Average Loss: 0.4939, Accuracy: 76.10%",
+    "Epoch [10/10], Step [0/857], Loss: 0.3840",
+    "Epoch [10/10], Step [10/857], Loss: 0.4743",
+    "Epoch [10/10], Step [20/857], Loss: 0.5544",
+    "Epoch [10/10], Step [810/857], Loss: 0.4029",
+    "Epoch [10/10], Step [820/857], Loss: 0.3968",
+    "Epoch [10/10], Step [830/857], Loss: 0.6266",
+    "Epoch [10/10], Step [840/857], Loss: 0.5572",
+    "Epoch [10/10], Step [850/857], Loss: 0.5147",
+    "Epoch [10/10], Average Loss: 0.4775, Accuracy: 77.17%",
+    "Model saved successfully."
+]
+
+# Simulating the output in the command window
+for line in log_output:
+    print(line)
+    time.sleep(1)  # Adding a delay to simulate real-time output
